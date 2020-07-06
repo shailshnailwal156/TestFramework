@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3060C8B24B37AB9006D46EA /* GothamHTF-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3060C8524B37AB9006D46EA /* GothamHTF-Light.ttf */; };
+		A3060C8C24B37AB9006D46EA /* GothamHTF-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3060C8624B37AB9006D46EA /* GothamHTF-Thin.ttf */; };
+		A3060C8D24B37AB9006D46EA /* GothamHTF-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3060C8724B37AB9006D46EA /* GothamHTF-Medium.ttf */; };
+		A3060C8E24B37AB9006D46EA /* GothamHTF-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3060C8824B37AB9006D46EA /* GothamHTF-Book.ttf */; };
+		A3060C8F24B37AB9006D46EA /* GothamHTF-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3060C8924B37AB9006D46EA /* GothamHTF-Bold.ttf */; };
+		A3060C9024B37AB9006D46EA /* GothamHTF-XLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3060C8A24B37AB9006D46EA /* GothamHTF-XLight.ttf */; };
 		A30DAD0324B30A3D00BE109E /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30DACF924B30A3D00BE109E /* TestFramework.framework */; };
 		A30DAD0824B30A3D00BE109E /* TestFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30DAD0724B30A3D00BE109E /* TestFrameworkTests.swift */; };
 		A30DAD0A24B30A3D00BE109E /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A30DACFC24B30A3D00BE109E /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A30DAD1424B30AA700BE109E /* MyLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30DAD1324B30AA700BE109E /* MyLable.swift */; };
-		A30DAD1B24B30B8500BE109E /* GothamHTF-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30DAD1524B30B8500BE109E /* GothamHTF-Book.ttf */; };
-		A30DAD1C24B30B8500BE109E /* GothamHTF-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30DAD1624B30B8500BE109E /* GothamHTF-Light.ttf */; };
-		A30DAD1D24B30B8500BE109E /* GothamHTF-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30DAD1724B30B8500BE109E /* GothamHTF-Thin.ttf */; };
-		A30DAD1E24B30B8500BE109E /* GothamHTF-XLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30DAD1824B30B8500BE109E /* GothamHTF-XLight.ttf */; };
-		A30DAD1F24B30B8500BE109E /* GothamHTF-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30DAD1924B30B8500BE109E /* GothamHTF-Bold.ttf */; };
-		A30DAD2024B30B8500BE109E /* GothamHTF-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30DAD1A24B30B8500BE109E /* GothamHTF-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3060C8524B37AB9006D46EA /* GothamHTF-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Light.ttf"; sourceTree = "<group>"; };
+		A3060C8624B37AB9006D46EA /* GothamHTF-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Thin.ttf"; sourceTree = "<group>"; };
+		A3060C8724B37AB9006D46EA /* GothamHTF-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Medium.ttf"; sourceTree = "<group>"; };
+		A3060C8824B37AB9006D46EA /* GothamHTF-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Book.ttf"; sourceTree = "<group>"; };
+		A3060C8924B37AB9006D46EA /* GothamHTF-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Bold.ttf"; sourceTree = "<group>"; };
+		A3060C8A24B37AB9006D46EA /* GothamHTF-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-XLight.ttf"; sourceTree = "<group>"; };
 		A30DACF924B30A3D00BE109E /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30DACFC24B30A3D00BE109E /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		A30DACFD24B30A3D00BE109E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,12 +43,6 @@
 		A30DAD0724B30A3D00BE109E /* TestFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrameworkTests.swift; sourceTree = "<group>"; };
 		A30DAD0924B30A3D00BE109E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30DAD1324B30AA700BE109E /* MyLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLable.swift; sourceTree = "<group>"; };
-		A30DAD1524B30B8500BE109E /* GothamHTF-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Book.ttf"; sourceTree = "<group>"; };
-		A30DAD1624B30B8500BE109E /* GothamHTF-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Light.ttf"; sourceTree = "<group>"; };
-		A30DAD1724B30B8500BE109E /* GothamHTF-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Thin.ttf"; sourceTree = "<group>"; };
-		A30DAD1824B30B8500BE109E /* GothamHTF-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-XLight.ttf"; sourceTree = "<group>"; };
-		A30DAD1924B30B8500BE109E /* GothamHTF-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Bold.ttf"; sourceTree = "<group>"; };
-		A30DAD1A24B30B8500BE109E /* GothamHTF-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3060C8424B37AB9006D46EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A3060C8524B37AB9006D46EA /* GothamHTF-Light.ttf */,
+				A3060C8624B37AB9006D46EA /* GothamHTF-Thin.ttf */,
+				A3060C8724B37AB9006D46EA /* GothamHTF-Medium.ttf */,
+				A3060C8824B37AB9006D46EA /* GothamHTF-Book.ttf */,
+				A3060C8924B37AB9006D46EA /* GothamHTF-Bold.ttf */,
+				A3060C8A24B37AB9006D46EA /* GothamHTF-XLight.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		A30DACEF24B30A3D00BE109E = {
 			isa = PBXGroup;
 			children = (
@@ -88,12 +101,7 @@
 				A30DACFC24B30A3D00BE109E /* TestFramework.h */,
 				A30DACFD24B30A3D00BE109E /* Info.plist */,
 				A30DAD1324B30AA700BE109E /* MyLable.swift */,
-				A30DAD1924B30B8500BE109E /* GothamHTF-Bold.ttf */,
-				A30DAD1524B30B8500BE109E /* GothamHTF-Book.ttf */,
-				A30DAD1624B30B8500BE109E /* GothamHTF-Light.ttf */,
-				A30DAD1A24B30B8500BE109E /* GothamHTF-Medium.ttf */,
-				A30DAD1724B30B8500BE109E /* GothamHTF-Thin.ttf */,
-				A30DAD1824B30B8500BE109E /* GothamHTF-XLight.ttf */,
+				A3060C8424B37AB9006D46EA /* Assets */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -200,12 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30DAD2024B30B8500BE109E /* GothamHTF-Medium.ttf in Resources */,
-				A30DAD1F24B30B8500BE109E /* GothamHTF-Bold.ttf in Resources */,
-				A30DAD1D24B30B8500BE109E /* GothamHTF-Thin.ttf in Resources */,
-				A30DAD1C24B30B8500BE109E /* GothamHTF-Light.ttf in Resources */,
-				A30DAD1B24B30B8500BE109E /* GothamHTF-Book.ttf in Resources */,
-				A30DAD1E24B30B8500BE109E /* GothamHTF-XLight.ttf in Resources */,
+				A3060C8F24B37AB9006D46EA /* GothamHTF-Bold.ttf in Resources */,
+				A3060C8E24B37AB9006D46EA /* GothamHTF-Book.ttf in Resources */,
+				A3060C8D24B37AB9006D46EA /* GothamHTF-Medium.ttf in Resources */,
+				A3060C8C24B37AB9006D46EA /* GothamHTF-Thin.ttf in Resources */,
+				A3060C8B24B37AB9006D46EA /* GothamHTF-Light.ttf in Resources */,
+				A3060C9024B37AB9006D46EA /* GothamHTF-XLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
