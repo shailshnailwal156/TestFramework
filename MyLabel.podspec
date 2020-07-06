@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-  spec.resources  = "TestFramework/Assets/*.{ttf}"
+  spec.resources  = "TestFramework/**/*.{ttf}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
