@@ -89,7 +89,7 @@ public enum SootheFonts: Int {
 
 public class MyLable: UILabel {
     
-    static var sharedMyLabel: MyLable = MyLable()
+    public static var sharedMyLabel: MyLable = MyLable()
     
   var _font: SootheFonts = SootheFonts()
   @IBInspectable
