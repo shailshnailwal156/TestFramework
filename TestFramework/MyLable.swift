@@ -88,9 +88,6 @@ public enum SootheFonts: Int {
 }
 
 public class MyLable: UILabel {
-    
-    public static var sharedMyLabel: MyLable = MyLable()
-    
   var _font: SootheFonts = SootheFonts()
   @IBInspectable
   public var customFont: Int = SootheFonts.regular.rawValue {
@@ -102,7 +99,7 @@ public class MyLable: UILabel {
   }
     
     
-    private func registerFont(withName name: String, fileExtension: String) {
+    private static func registerFont(withName name: String, fileExtension: String) {
         let frameworkBundle = Bundle(for: MyLable.self)
         let pathForResourceString = frameworkBundle.path(forResource: name, ofType: fileExtension)
         let fontData = NSData(contentsOfFile: pathForResourceString!)
@@ -115,7 +112,7 @@ public class MyLable: UILabel {
         }
     }
 
-    public func loadFonts() {
+    public static func loadFonts() {
         registerFont(withName: "GothamHTF-Light", fileExtension: "ttf")
         registerFont(withName: "GothamHTF-Thin", fileExtension: "ttf")
         registerFont(withName: "GothamHTF-Medium", fileExtension: "ttf")
