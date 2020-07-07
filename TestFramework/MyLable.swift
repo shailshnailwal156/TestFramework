@@ -89,6 +89,7 @@ public enum SootheFonts: Int {
 
 public class MyLable: UILabel {
   var _font: SootheFonts = SootheFonts()
+    public static var isFontRegistered = false
   @IBInspectable
   public var customFont: Int = SootheFonts.regular.rawValue {
      didSet {
@@ -98,6 +99,15 @@ public class MyLable: UILabel {
      }
   }
     
+    public required init?(coder: NSCoder) {
+
+        super.init(coder: coder)
+
+        if !MyLable.isFontRegistered {
+
+            MyLable.loadFonts()
+        }
+    }
     
     private static func registerFont(withName name: String, fileExtension: String) {
         let frameworkBundle = Bundle(for: MyLable.self)
