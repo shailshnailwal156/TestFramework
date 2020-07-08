@@ -100,15 +100,15 @@ public class MyLable: UILabel {
      }
   }
     
-    public required init?(coder: NSCoder) {
-
-        super.init(coder: coder)
-
-        if !MyLable.isFontRegistered {
-
-            MyLable.loadFonts()
-        }
-    }
+//    public required init?(coder: NSCoder) {
+//
+//        super.init(coder: coder)
+//
+//        if !MyLable.isFontRegistered {
+//
+//            MyLable.loadFonts()
+//        }
+//    }
     
     private static func registerFont(withName name: String, fileExtension: String) {
         let frameworkBundle = Bundle(for: MyLable.self)
