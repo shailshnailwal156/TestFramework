@@ -87,6 +87,7 @@ public enum SootheFonts: Int {
     }
 }
 
+@IBDesignable
 public class MyLable: UILabel {
   var _font: SootheFonts = SootheFonts()
     public static var isFontRegistered = false
